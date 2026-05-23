@@ -6,4 +6,7 @@ export default antfu({
     stylistic: {
         indent: 4,
     },
+    rules: {
+        "no-console": 'off'
+    }
 })

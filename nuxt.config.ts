@@ -12,6 +12,7 @@ export default defineNuxtConfig({
         '@kgierke/nuxt-basic-auth',
         '@pinia/nuxt',
         '@vueuse/nuxt',
+        '@tresjs/nuxt',
     ],
 
     css: ['~/assets/main.css'],
