@@ -1,4 +1,12 @@
-body {
-    font-family: 'DM Sans';
-    color: white;
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme {
+    --font-sans: 'DM Sans', system-ui, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
 }
+
+:root {
+  --ui-radius: 0.125rem;
+}
+
